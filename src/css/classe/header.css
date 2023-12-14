@@ -6,3 +6,9 @@
     top: 20px;
     z-index: 2;
 }
+.header__titre{
+    color: var(--jaune, #FFDE0A);
+    text-align: center;
+    font-family: Georgia;
+    font-size: var(--titre-2)
+}
