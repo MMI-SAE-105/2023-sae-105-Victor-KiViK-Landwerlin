@@ -1,16 +1,17 @@
 .fleche {
     margin-left: 90px;
-    margin-bottom: 20px;
     margin-top: -20px;
     z-index: -1;
     position: absolute;
 }
 .elementfrise1{
+    padding: 20px;
     margin-left: 90px;
     z-index: 1;
     text-align: right;
 }
 .elementfrise2{
+    padding: 20px;
     z-index: 1;
     text-align: left;
 }
