@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaudi L'Expo</title>
     <link rel="stylesheet" href="src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 <body>
     <header class="header">
         <img class="header_logo" src="public/img/logo.png" alt="Logo">
         <h1 class="header_titre">Gaudi</h1>
-        <img class="header_menubtn" src="public/img/menu.png" alt="menu">
-        <nav>
+        <button aria-controls="menub" @click="menuIsOpen = ! menuIsOpen" class="header_menubtn"><img src="public/img/menu.png" alt=""></button>
+
+        <nav id="menub" x-show="menuIsOpen" x-transition>
             <ul class="header_menu">
                 <li class="header_menu--lien"><a href="bio.html">Biographie</a></li>
                 <li class="header_menu--lien"><a href="oeuvres.html">Ses Œuvres</a></li>
