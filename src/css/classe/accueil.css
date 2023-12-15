@@ -16,6 +16,7 @@
 }
 
 .vignette1{
+    display: inline-flex;
     background-color:black;
     rotate: 2deg;
     margin-left: -20px;
@@ -23,13 +24,15 @@
     margin-bottom: 100px;
 }
 .vignette2{
-   background-color:var(--jaune);
+    display: inline-flex;
+    background-color:var(--jaune);
     rotate: 2deg;
     margin-left: -20px;
     margin-right: -20px;
     margin-bottom: 100px;
 }
 .vignette3{
+    display: inline-flex;
     background-color:var(--rouge);
      rotate: 2deg;
      margin-left: -20px;
@@ -40,9 +43,12 @@
     rotate: -2deg;
     height: 200px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .vignette_texte{
-    text-align: center;
+    
+    rotate: -2deg;
     font-family: Georgia;
-    font-size: var(--titre-3);
+    font-size: var(--titre-2);
+    
 }
