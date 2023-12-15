@@ -1,12 +1,12 @@
 .header {
-    background-color: var(--rouge);
-    position: fixed;
-    justify-content: space-between;
-    top: 0;
-    left: 0;
-    width: 100%;
-    
-  }
+  background-color: var(--rouge);
+  position: fixed;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999; /* Add this line to make it appear above all elements */
+}
   
   .header_logo,
   .header_menubtn {

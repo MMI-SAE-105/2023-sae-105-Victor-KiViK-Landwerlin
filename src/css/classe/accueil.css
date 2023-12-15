@@ -3,7 +3,6 @@
     font-family: Georgia;
     font-size: var(--titre-3);
     color: var(--jaune);
-    height: 100%;
     width: 100%;
     text-align: center;
     margin-top: 80px;
@@ -44,11 +43,33 @@
     height: 200px;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 30px;
 }
-.vignette_texte{
-    
+.vignette_texte1{
+    display: inline-flex;
     rotate: -2deg;
     font-family: Georgia;
     font-size: var(--titre-2);
-    
+    text-align: center;
+    margin-top: 100px; 
+    color: var(--jaune);
 }
+.vignette_texte2{
+    display: inline-flex;
+    rotate: -2deg;
+    font-family: Georgia;
+    font-size: var(--titre-2);
+    text-align: center;
+    margin-top: 100px;
+    color: var(--rouge);
+}
+.vignette_texte3{
+    display: inline-flex;
+    rotate: -2deg;
+    font-family: Georgia;
+    font-size: var(--titre-2);
+    text-align: center;
+    margin-top: 100px;
+    color: var(--jaune);
+} 
+
