@@ -1,6 +1,7 @@
 .header {
-    padding: 100px;
     background-color: var(--rouge);
+    position: absolute;
+    justify-content: space-between;
   }
   
   .header_logo,
@@ -8,17 +9,16 @@
     position: absolute;
   }
   .header_logo{
-    left: 20px;
-    top: 10px;
+    display: flex;
+    height: 50px;
   }
   .header_menubtn {
-    right: 20px;
-    top: 20px;
-    z-index: 2;
+    height: 50px;
   }
 .header_titre{
-    color: var(--jaune);
     text-align: center;
+    margin: 5px;
+    color: var(--jaune);
     font-family: Georgia;
     font-size: var(--titre-2)
 }
