@@ -1,21 +1,26 @@
 .fleche {
     margin-left: 90px;
-    margin-top: 20px;
     margin-bottom: 20px;
+    margin-top: -20px;
     z-index: -1;
-    position: fixed;
+    position: absolute;
 }
 .elementfrise1{
     margin-left: 90px;
     z-index: 1;
     text-align: right;
-    font-family: Georgia;
-    font-size: var(--titre-3);
 }
 .elementfrise2{
     z-index: 1;
     text-align: left;
+}
+.textefrise>a{
     font-family: Georgia;
     font-size: var(--titre-3);
-
+    color: black;
+}
+.textefrise{
+    font-family: Georgia;
+    font-size: var(--titre-3);
+    color: black;
 }
