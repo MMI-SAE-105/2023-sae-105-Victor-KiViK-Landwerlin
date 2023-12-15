@@ -21,6 +21,57 @@
             </ul>
         </nav>
     </header>
+    <h2 class="titre">Tarifs</h2>
+    <section class="carrousel" x-data="{hrefCourant: '#ecran-1',}">
+        <button @click="p = $refs.parent; p.scrollLeft -= p.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant">&lt;</button>
+        <button @click="p = $refs.parent; p.scrollLeft += p.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
+        <section class="carrousel_parent-ecrans" x-ref="parent"
+                @scroll.debounce.250ms.passive="
+        hrefCourant = '#'+
+                            [...$refs.parent.children]
+                            .find(e=>e.getBoundingClientRect().x>=0)
+                            .id">
+            <section id="ecran-1" class="carrousel_ecran">
+                <div>
+                    <p>Plein tarif</p>
+                </div>
+                <div>
+                    <p>11€</p>
+                </div>
+            </section>
+            <section id="ecran-2" class="carrousel_ecran">
+                <div>
+                    <p>Tarif réduit</p>
+                </div>
+                <div>
+                    <p>7,50€</p>
+                </div>
+            </section>
+            <section id="ecran-3" class="carrousel_ecran">
+                <div>
+                    <p>Réduction<br>13-25 ans</p>
+                </div>
+                <div>
+                    <p>5€</p>
+                </div>
+            </section>
+            <section id="ecran-4" class="carrousel_ecran">
+                <div>
+                    <p>Fondation <br>Cartier Pass</p>
+                </div>
+                <div>
+                    <p>18-50€</p>
+                </div>
+            </section>
+            <section id="ecran-5" class="carrousel_ecran">
+                <div>
+                    <p>Étudiants,<br> Presse, -13 <br> ans, autres...</p>
+                </div>
+                <div>
+                    <p>Gratuit</p>
+                </div>
+            </section>
+        </section>
     <footer class="footer">
         <a href="about.html">à propos</a>
         <a href="about.html">contact</a>
