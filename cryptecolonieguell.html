@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}":class="{noscroll:menuIsOpen,}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Milá</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html"><img class="header_logo" src="public/img/logo.png" alt="Logo"></a>
+        <h1 class="header_titre">Gaudi</h1>
+        <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header_menubtn" src="public/img/menu.png" alt="menu">
+        <nav id="mainNav" x-show="menuIsOpen" x-transition>
+            <ul class="header_menu">
+                <li class="header_menu--lien"><a href="bio.html">Biographie</a></li>
+                <li class="header_menu--lien"><a href="oeuvres.html">Ses Œuvres</a></li>
+                <li class="header_menu--lien"><a href="tarifs.html">Tarifs</a></li>
+                <li class="header_menu--lien"><a href="about.html">Contact/À Propos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 class="titre">Casa Milá</h2>
+    <section class="bio">
+        <p class="bio_texte">Érigée entre 1906 et 1912 à Barcelone, La Casa Milà, aussi appelée La Pedrera, est une création captivante du modernisme catalan.
+
+            Sa façade ondulée, dépourvue d'angles conventionnels, et ses balcons en fer forgé incarnent l'esthétique audacieuse de l'époque. Classée au patrimoine mondial de l'UNESCO, cette résidence emblématique offre une expérience immersive de l'innovation architecturale.
+            
+            Transformée en musée, La Pedrera permet aux visiteurs de découvrir l'héritage créatif d'une époque révolue, tout en étant un symbole contemporain de l'excellence architecturale à Barcelone.</p>
+        <img class="bio_image" src="public/img/casa_mila_bio.png" alt="casa mila">
+    </section>
+    <footer class="footer">
+        <a href="about.html">à propos</a>
+        <a href="about.html">contact</a>
+        <p>mentions légales</p>
+        <p>13 avril au 23 juin 2024</p>
+        <p>Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+        <p>landwerlinvictor4@gmail.com<p>
+        <p>© 2020 Gaudi L'Expo</p>
+    </footer>
+</body>
+</html>
