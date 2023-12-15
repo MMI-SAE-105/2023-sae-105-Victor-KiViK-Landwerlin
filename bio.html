@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuIsOpen: false}":class="{noscroll:menuIsOpen,}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biographie</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 <body>
-    <header>
-        <img src="public/img/#" alt="Logo">
-        <h1>Gaudi</h1>
-        <nav>
-            <ul>
-                <li><a href="bio.html">Biographie</a></li>
-                <li><a href="oeuvres.html">Ses Œuvres</a></li>
-                <li><a href="tarifs.html"></a>Tarifs</li>
-                <li><a href="about.html">Contact/À Propos</a></li>
+    <header class="header">
+        <img class="header_logo" src="public/img/logo.png" alt="Logo">
+        <h1 class="header_titre">Gaudi</h1>
+        <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header_menubtn" src="public/img/menu.png" alt="menu">
+        <nav id="mainNav" x-show="menuIsOpen" x-transition>
+            <ul class="header_menu">
+                <li class="header_menu--lien"><a href="bio.html">Biographie</a></li>
+                <li class="header_menu--lien"><a href="oeuvres.html">Ses Œuvres</a></li>
+                <li class="header_menu--lien"><a href="tarifs.html">Tarifs</a></li>
+                <li class="header_menu--lien"><a href="about.html">Contact/À Propos</a></li>
             </ul>
         </nav>
     </header>
