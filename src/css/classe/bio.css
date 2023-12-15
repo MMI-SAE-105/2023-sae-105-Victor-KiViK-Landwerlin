@@ -1,0 +1,12 @@
+.bio{
+    margin-left: 25px ;
+    margin-right: 25px;
+}
+.bio_image{
+    width: 100%;
+}
+.bio_text{
+    font-family: Verdana;
+    font-size: 12px;
+    
+}
