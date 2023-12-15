@@ -4,4 +4,6 @@
 
 @import "utils/variable.css";
 
-@import "classe/accueil.css"
+@import "classe/accueil.css";
+
+@import "classe/footer.css"
