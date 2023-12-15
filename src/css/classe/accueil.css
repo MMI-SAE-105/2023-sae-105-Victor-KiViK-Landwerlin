@@ -8,6 +8,7 @@
     margin-top: 80px;
 }
 .titre{
+    margin-top: 100px;
     font-family: Georgia;
     font-size: var(--titre-1);
     color: var(--rouge);

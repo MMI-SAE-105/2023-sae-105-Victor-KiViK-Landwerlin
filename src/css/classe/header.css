@@ -5,9 +5,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 9999; /* Add this line to make it appear above all elements */
+  z-index: 9999;
 }
-  
   .header_logo,
   .header_menubtn {
     position: absolute;
