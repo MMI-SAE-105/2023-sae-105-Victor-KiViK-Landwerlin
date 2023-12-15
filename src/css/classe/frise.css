@@ -1,0 +1,17 @@
+.fleche {
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    z-index: -1;
+    position: fixed;
+}
+.elementfrise1{
+    margin-left: 90px;
+    z-index: 1;
+    text-align: right;
+}
+.elementfrise2{
+    margin-left: 90px;
+    z-index: 1;
+    text-align: right;
+}
