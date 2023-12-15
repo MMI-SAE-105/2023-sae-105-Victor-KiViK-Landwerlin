@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuIsOpen: false}":class="{noscroll:menuIsOpen,}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +11,8 @@
     <header class="header">
         <img class="header_logo" src="public/img/logo.png" alt="Logo">
         <h1 class="header_titre">Gaudi</h1>
-        <button aria-controls="menub" @click="menuIsOpen = ! menuIsOpen" class="header_menubtn"><img src="public/img/menu.png" alt=""></button>
-
-        <nav id="menub" x-show="menuIsOpen" x-transition>
+        <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header_menubtn" src="public/img/menu.png" alt="menu">
+        <nav id="mainNav" x-show="menuIsOpen" x-transition>
             <ul class="header_menu">
                 <li class="header_menu--lien"><a href="bio.html">Biographie</a></li>
                 <li class="header_menu--lien"><a href="oeuvres.html">Ses Œuvres</a></li>
