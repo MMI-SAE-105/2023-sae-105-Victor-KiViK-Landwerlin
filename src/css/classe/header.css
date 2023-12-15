@@ -1,13 +1,23 @@
-.header{
+.header {
+    padding: 100px;
     background-color: var(--rouge);
-}
-.header__logo{
+  }
+  
+  .header_logo,
+  .header_titre {
+    position: absolute;
+  }
+  .header_logo{
+    left: 20px;
+    top: 10px;
+  }
+  .header_menubtn {
     right: 20px;
     top: 20px;
     z-index: 2;
-}
-.header__titre{
-    color: var(--jaune, #FFDE0A);
+  }
+.header_titre{
+    color: var(--jaune);
     text-align: center;
     font-family: Georgia;
     font-size: var(--titre-2)

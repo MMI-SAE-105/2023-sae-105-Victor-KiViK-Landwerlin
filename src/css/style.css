@@ -1,3 +1,5 @@
 @import "vendors/normalize.css";
 
 @import "classe/header.css";
+
+@import "utils/variable.css"
