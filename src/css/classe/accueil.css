@@ -23,6 +23,7 @@
     margin-right: -20px;
     margin-bottom: 100px;
 }
+
 .vignette2{
     display: inline-flex;
     background-color:var(--jaune);
@@ -73,6 +74,6 @@
     margin-top: 100px;
     color: var(--jaune);
 } 
-
-.body{background-image: url("../../../public/img/fond.png");
+body{
+    background-image: url("../../../public/img/fond.png") ;
 }
