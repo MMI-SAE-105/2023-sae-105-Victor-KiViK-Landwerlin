@@ -1,0 +1,10 @@
+.intro{
+    background-image: url("../../../public/img/portrait_titre.png") ;
+    font-family: Georgia;
+    font-size: var(--titre-2);
+    color: var(--jaune);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}

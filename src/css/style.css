@@ -2,4 +2,6 @@
 
 @import "classe/header.css";
 
-@import "utils/variable.css"
+@import "utils/variable.css";
+
+@import "classe/accueil.css"
