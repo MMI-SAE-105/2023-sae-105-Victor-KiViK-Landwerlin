@@ -27,3 +27,13 @@
     font-family: Georgia;
     font-size: var(--titre-2)
 }
+
+.header_menu{
+    list-style:none;
+}
+
+.header_menu--lien>a{
+    color: var(--jaune);
+    font-family: Georgia;
+    font-size: var(--titre-2);
+}
