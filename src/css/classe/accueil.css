@@ -1,10 +1,48 @@
 .intro{
     background-image: url("../../../public/img/portrait_titre.png") ;
     font-family: Georgia;
-    font-size: var(--titre-2);
+    font-size: var(--titre-3);
     color: var(--jaune);
     height: 100%;
     width: 100%;
     text-align: center;
     margin-top: 80px;
+}
+.titre{
+    font-family: Georgia;
+    font-size: var(--titre-1);
+    color: var(--rouge);
+    text-align: center;    
+}
+
+.vignette1{
+    background-color:black;
+    rotate: 2deg;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 100px;
+}
+.vignette2{
+   background-color:var(--jaune);
+    rotate: 2deg;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 100px;
+}
+.vignette3{
+    background-color:var(--rouge);
+     rotate: 2deg;
+     margin-left: -20px;
+     margin-right: -20px;
+     margin-bottom: 100px;
+ }
+.vignette_image{
+    rotate: -2deg;
+    height: 200px;
+    margin-top: 50px;
+}
+.vignette_texte{
+    text-align: center;
+    font-family: Georgia;
+    font-size: var(--titre-3);
 }
