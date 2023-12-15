@@ -1,0 +1,42 @@
+.contactnom{
+    margin-left: 50px;
+    background-color: white;
+    width: 50%;
+    height: 100px;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    font-family: Verdana;
+    font-size: var(--titre-3);
+}
+.contactmail{
+    margin-left: 50px;
+    background-color: white;
+    width: 50%;
+    height: 100px;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    font-family: Verdana;
+    font-size: var(--titre-3);
+}
+.contactmessage{
+    margin-left: 50px;
+    background-color: white;
+    width: 50%;
+    height: 100px;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    font-family: Verdana;
+    font-size: var(--titre-3);
+}
+.contactenvoyer{
+    margin-left: 50px;
+    background-color: var(--rouge);
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-family: Georgia;
+    font-size: var(--titre-3);
+}
+.contactenvoyer>p{
+    color: var(--jaune);
+}
