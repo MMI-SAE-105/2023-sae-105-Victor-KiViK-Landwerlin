@@ -2,22 +2,27 @@
     background-color: var(--rouge);
     position: absolute;
     justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
   }
   
   .header_logo,
-  .header_titre {
+  .header_menubtn {
     position: absolute;
   }
   .header_logo{
-    display: flex;
     height: 50px;
   }
   .header_menubtn {
     height: 50px;
+    right: 10px;
+    top: 10px;
+    z-index: 2;
   }
 .header_titre{
+    margin-top: 15px;
     text-align: center;
-    margin: 5px;
     color: var(--jaune);
     font-family: Georgia;
     font-size: var(--titre-2)
