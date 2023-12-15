@@ -9,9 +9,13 @@
     margin-left: 90px;
     z-index: 1;
     text-align: right;
+    font-family: Georgia;
+    font-size: var(--titre-3);
 }
 .elementfrise2{
-    margin-left: 90px;
     z-index: 1;
-    text-align: right;
+    text-align: left;
+    font-family: Georgia;
+    font-size: var(--titre-3);
+
 }
